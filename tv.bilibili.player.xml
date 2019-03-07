@@ -4,11 +4,11 @@
   <item enabled="true">t=红红火火恍恍惚惚</item>
   <item enabled="true">t=韩红嘿嘿嘿</item>
   <item enabled="true">r=^啊啊啊</item>
+  <item enabled="true">r=^哈+[！!]?$</item>
   <item enabled="true">r=(.)\1{9}</item>
   <item enabled="true">r=^(.)\1{4,}$</item>
   <item enabled="true">r=.{50}</item> <!-- 超长弹幕 -->
   <item enabled="true">r=^[\.。\?？!！~～]+$</item> <!-- 无意义符号 -->
-  <item enabled="true">r=^[0-9]{4,}$</item> <!-- 无意义数字 -->
   <item enabled="true">r=^[^\u4E00-\u9FA5]$</item> <!-- 单个非中文字符 -->
 
   <!-- 建筑美 -->
@@ -18,12 +18,18 @@
   <item enabled="true">r=(^|是)..的?白色.?$</item> <!-- 颜色 -->
   
   <!-- 播放相关 -->
+  <item enabled="true">t=高产似</item>
   <item enabled="true">t=前排</item>
   <item enabled="true">t=这么前</item>
   <item enabled="true">t=刚刚投递</item>
+  <item enabled="true">t=看看我发现</item>
+  <item enabled="true">t=来早了</item>
+  <item enabled="true">t=来晚了</item>
+  <item enabled="true">t=在此相遇</item>
   <item enabled="true">r=^没了$</item>
   <item enabled="true">r=^刚刚$</item>
   <item enabled="true">r=^第几\??$</item>
+  <item enabled="true">r=^\d+[！!]?$</item> <!-- 无意义数字 -->
   <item enabled="true">r=^(真.?)?[第前]([0-9零一二两三四五六七八九十百千万亿].{0,15})?了?$</item>
   <item enabled="true">r=^.{0,3}[0-9零一二两三四五六七八九十百千万亿][天时分钟秒]前?</item>
   <item enabled="true">r=破.*[wW万萬]</item>
@@ -63,8 +69,14 @@
   <item enabled="true">t=つロ</item> <!-- bilibili干杯 -->
   <item enabled="true">r=[干肝乾]杯</item> <!-- bilibili干杯 -->
   <item enabled="true">r=[马馬][冬东]|[冬东]梅|[马馬]什么梅</item>
+  <item enabled="true">t=wsl</item>
+  <item enabled="true">t=阿伟</item>
+  <item enabled="true">t=啊我</item>
+  <item enabled="true">t=完事</item>
   
   <!-- 无意义撕逼 -->
+  <item enabled="true">t=休想</item>
+  <item enabled="true">t=光年</item>
   <item enabled="true">t=承包</item>
   <item enabled="true">t=我选</item> <!-- 说得好，我选择xxx -->
   <item enabled="true">r=我的?(床上|老婆)</item> <!-- 你们都错了，蕾姆其实在我床上 -->
