@@ -64,7 +64,8 @@
   <item enabled="true">r=^《.+》$</item> <!-- 书名刷屏 -->
   <item enabled="true">r=^告诉.*[我还永]</item> <!-- 告诉xx我爱她 -->
   <item enabled="true">r=暴[露漏](时间)?[了乐啦拉]</item> <!-- 我也暴露了 -->
-  <item enabled="true">r=[拉啦雷蕾][姆母拇]</item>
+  <item enabled="true">r=.看看</item>
+  <item enabled="true">r=.学学</item>
   <item enabled="true">r=周目($|.*(我|回|起|报|人|过|来|此))</item> <!-- N周目加我一个 -->
   <item enabled="true">t=つロ</item> <!-- bilibili干杯 -->
   <item enabled="true">r=[干肝乾]杯</item> <!-- bilibili干杯 -->
