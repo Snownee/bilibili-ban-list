@@ -18,6 +18,9 @@
   <item enabled="true">r=(^|是)..的?白色.?$</item> <!-- 颜色 -->
   
   <!-- 播放相关 -->
+  <item enabled="true">t=有生之年</item>
+  <item enabled="true">t=来啦</item>
+  <item enabled="true">t=来了</item>
   <item enabled="true">t=高产似</item>
   <item enabled="true">t=前排</item>
   <item enabled="true">t=这么前</item>
