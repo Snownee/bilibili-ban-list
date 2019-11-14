@@ -1,6 +1,8 @@
 <filters>
 
   <!-- 无意义弹幕 -->
+  <item enabled="true">t=脏话</item>
+  <item enabled="true">t=粗话</item>
   <item enabled="true">t=红红火火恍恍惚惚</item>
   <item enabled="true">t=韩红嘿嘿嘿</item>
   <item enabled="true">r=^啊啊啊</item>
@@ -16,8 +18,9 @@
   <item enabled="true">t=倍速</item>
   <item enabled="true">r=(^|是)..的?[红橙黄绿青蓝紫黑灰].{0,2}$</item> <!-- 颜色 -->
   <item enabled="true">r=(^|是)..的?白色.?$</item> <!-- 颜色 -->
-  
+
   <!-- 播放相关 -->
+  <item enabled="true">t=知道你在看</item>
   <item enabled="true">t=有生之年</item>
   <item enabled="true">t=来啦</item>
   <item enabled="true">t=来了</item>
@@ -42,19 +45,19 @@
   <item enabled="true">t=撒花</item>
   <item enabled="true">t=世界第几</item> <!-- 你是世界第一丑 -->
   <item enabled="true">r=[0-9万名].{1,6}[伴你们人友]($|.*[豪嚎号好])</item> <!-- 12450个小伙伴好 -->
-  
+
   <!-- 空降 -->
   <item enabled="true">t=完美空降</item>
   <item enabled="true">t=谢指挥部</item>
   <item enabled="true">r=降.{0,3}(成功|失败|完美)</item>
   <item enabled="true">r=空难(现场|$)</item>
-  
+
   <!-- 漂移 -->
   <item enabled="true">r=[漂飘飄飙][移逸遗]</item>
   <item enabled="true">r=[左右][漂飘飄飙]</item>
   <item enabled="true">r=(\s|^|[我怎来会].?)[漂飘飄飙]+($|.?[～~?？。，啊]|\s)</item>
   <item enabled="true">r=\s{5}</item>
-  
+
   <!-- 跟风刷屏 -->
   <item enabled="true">t=的你够了</item>
   <item enabled="true">t=的泥垢了</item>
@@ -77,22 +80,22 @@
   <item enabled="true">t=阿伟</item>
   <item enabled="true">t=啊我</item>
   <item enabled="true">t=完事</item>
-  
+
   <!-- 无意义撕逼 -->
   <item enabled="true">t=休想</item>
   <item enabled="true">t=光年</item>
   <item enabled="true">t=承包</item>
   <item enabled="true">t=我选</item> <!-- 说得好，我选择xxx -->
   <item enabled="true">r=我的?(床上|老婆)</item> <!-- 你们都错了，蕾姆其实在我床上 -->
-  
+
   <!-- 日期相关 -->
   <item enabled="true">r=(\d{1,2}|十|十?[一二三四五六七八九十])([\.,\/:：、，；点\-月。]|\s+)(\d{1,2}|[二三]?十|[二三]?十?[一二三四五六七八九]).{0,4}($|[日的过我别你上午夜晨])</item> <!-- 1月11的路过 -->
   <item enabled="true">r=\d\d(\d\d)?([\.,。，、\/\-年—*]|\s+)\d(\d)?([\.,。，、\/\-月—*]|\s+)\d</item> <!-- 2000.1.11路过 -->
   <item enabled="true">r=^(2([^3]\d|3[^3])|6([^6]\d|6[^6])|[^26]\d{2})\d{0,5}$</item> <!-- ^(?!233|666)\d{3,8}$，屏蔽20160101 -->
   <item enabled="true">r=(元旦|年|国庆|春|秋|圣诞).?快乐</item>
-  
+
   <!-- 广告 -->
   <item enabled="true">t=加Q</item>
   <item enabled="true">t=加我微信</item>
-  
+
 </filters>
